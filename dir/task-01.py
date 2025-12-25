@@ -6,18 +6,12 @@ def new_directory(directory, filename):
     os.mkdir(directory)
 
   # Create the new file inside of the new directory
+  
   os.path.join(directory, filename)
-  with open (filename, "w") as file:
+  with open (filename, "r") as file:
     pass
 
   # Return the list of files in the new directory
-  return os.listdir()
+  return os.listdir(directory)
 
 print(new_directory("PythonPrograms", "script.py"))
-
-
-# Error on line 16:
-#     print(new_directory("PythonPrograms", "script.py"))
-# Error on line 10:
-#     with open (filename) as file:
-# FileNotFoundError: [Errno 2] No such file or directory: 'script.py'
