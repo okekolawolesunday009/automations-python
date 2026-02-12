@@ -1,0 +1,1 @@
+tail /var/log/syslog | cut -d' ' -f5- #means print lines from field 5 onwards (i.e., everything after the first 4 fields)(using space as delimiter)

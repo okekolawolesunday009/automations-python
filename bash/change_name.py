@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+import sys
+import subprocess
+
+
+with open(sys.argv[1]) as file:
+        lines = file.readlines()
+        for line in lines:
+                oldV = line.strip()
+                newResult = oldV.replace("jane", "jdoe")
+                subprocess.run(['mv', oldV, newResult])
+file.close()
