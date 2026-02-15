@@ -1,0 +1,7 @@
+date,service,process,pid,level,message
+2026-02-12T10:15:03Z,backend,,,ERROR,Connection timeout
+,,nginx,2213,WARN,client closed connection prematurely
+,,systemd,,ALERT,Service restarted too frequently
+,,kubelet,3321,INFO,Node pressure resolved
+,,panic,,RUNTIME,error: invalid memory address
+,cache,,,FATAL,worker crashed unexpectedly
