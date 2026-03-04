@@ -1,0 +1,7 @@
+2026-02-12 10:15:03 INFO User logged in
+2026-02-12 10:15:07 WARNING Disk usage at 85%
+2026-02-12 10:15:09 ERROR Failed to connect to DB
+[auth-service] DEBUG Token validated
+NOTICE Config file reloaded
+[worker] CRITICAL Job queue overflow
+
